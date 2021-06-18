@@ -7,6 +7,6 @@
 
 
 prod:
-  access_key: replace_me
-  secret_key: replace_me
+  access_key: ${BINANCE_API_KEY}
+  secret_key: ${BINANCE_API_SECRET}
 

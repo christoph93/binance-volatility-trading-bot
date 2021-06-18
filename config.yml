@@ -31,6 +31,14 @@ trading_options:
     - USDUSDT
     - DOWN
     - UP
+    - ETHUSDT
+    - VETUSDT
+    - ALGOUSDT
+    - NANOUSDT
+    - ADAUSDT
+    - BTCUSDT
+    - IOTAUSDT
+    - CHZUSDT
 
   # Maximum number of trade 'slots' at any time (your USDT balance must be at least MAX_COINS * QUANTITY)
   MAX_COINS: 7
