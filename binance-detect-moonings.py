@@ -366,8 +366,8 @@ def sell_coins():
         # define stop loss and take profit
         BuyPrice = float(coins_bought[coin]['bought_at'])
         try:
-            TP = BuyPrice + (BuyPrice) * coins_bought[coin]['take_profit']) / 100
-            SL = BuyPrice + (BuyPrice) * coins_bought[coin]['stop_loss']) / 100
+            TP = (BuyPrice + (BuyPrice) * coins_bought[coin]['take_profit']) / 100
+            SL = (BuyPrice + (BuyPrice) * coins_bought[coin]['stop_loss']) / 100
         # When an older version of the script is being executed
         except KeyError:
             TP = BuyPrice + (BuyPrice) / 100
