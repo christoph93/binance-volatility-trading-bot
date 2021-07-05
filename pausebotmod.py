@@ -30,6 +30,10 @@ def analyze():
         print("Exception:")
         print(e)
     
+    while not(hasattr(analysis, 'moving_averages')):
+        print('missing moving_averages')
+        time.sleep((20))
+
     ma_sell = analysis.moving_averages['SELL']
     if ma_sell >= THRESHOLD:
         paused = True
