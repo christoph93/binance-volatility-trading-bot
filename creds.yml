@@ -5,7 +5,6 @@
 # Good:
 #   access_key: myaccess_key 
 
-
 prod:
   access_key: ${BINANCE_API_KEY}
   secret_key: ${BINANCE_API_SECRET}
